@@ -9,7 +9,7 @@
 
 ### Hexagonale Labyrinthe
 
-![](images/hexa-maze.svg)
+![Anwendung](images/hexa-maze.svg)
 
 👉 https://github.com/lebalz/hex_maze
 
