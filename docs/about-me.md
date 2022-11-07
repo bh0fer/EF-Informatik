@@ -7,7 +7,7 @@
 
 ## Projektlis
 
-### Hexagonale Labyrinthe
+### Hexagonale Labyrinth
 
 ![Anwendung](images/hexa-maze.svg)
 
