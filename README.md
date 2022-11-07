@@ -2,7 +2,6 @@
 
 😎
 
-
 ```py
 def hello():
     print('Hello EF Informatik')
