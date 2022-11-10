@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Lern Blog',
   tagline: 'EF Informatik',
-  url: 'https://bh0fer.github.io/',
-  baseUrl: '/EF-Informatik/',
+  url: 'https://USERNAME.github.io/',
+  baseUrl: '/EF-INFORMATIK/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'gbsl', // Usually your GitHub org/user name.
-  projectName: 'EF-Informatik', // Usually your repo name.
+  projectName: 'EF-INFORMATIK', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bh0fer/EF-Informatik/tree/main/',
+            'https://github.com/USERNAME/EF-INFORMATIK/tree/main/',
         },
         blog: {
           routeBasePath: '/',
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/bh0fer/EF-Informatik/tree/main/',
+            'https://github.com/USERNAME/EF-INFORMATIK/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
@@ -73,7 +73,7 @@ const config = {
             label: 'Dokumente',
           },
           {
-            href: 'https://github.com/bh0fer/EF-Informatik',
+            href: 'https://github.com/USERNAME/EF-INFORMATIK',
             label: 'GitHub',
             position: 'right',
           },
@@ -117,7 +117,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/bh0fer/EF-Informatik',
+                href: 'https://github.com/USERNAME/EF-INFORMATIK',
               },
             ],
           },
@@ -129,6 +129,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),  
+    markdown: {
+      mermaid: true,
+    },
+    themes: ['@docusaurus/theme-mermaid'],
     plugins: ['docusaurus-plugin-sass'],
 };
 
