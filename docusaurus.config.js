@@ -3,21 +3,23 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const USERNAME = 'foobar';
+const REPO_NAME = 'repo';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Lern Blog',
   tagline: 'EF Informatik',
-  url: 'https://USERNAME.github.io/',
-  baseUrl: '/EF-INFORMATIK/',
+  url: `https://${USERNAME}.github.io/`,
+  baseUrl: `/${REPO_NAME}/`,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'gbsl', // Usually your GitHub org/user name.
-  projectName: 'EF-INFORMATIK', // Usually your repo name.
+  organizationName: USERNAME, // Usually your GitHub org/user name.
+  projectName: REPO_NAME, // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,7 +39,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/USERNAME/EF-INFORMATIK/tree/main/',
+            `https://github.com/${USERNAME}/${REPO_NAME}/tree/main/`,
         },
         blog: {
           routeBasePath: '/',
@@ -46,7 +48,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/USERNAME/EF-INFORMATIK/tree/main/',
+            `https://github.com/${USERNAME}/${REPO_NAME}/tree/main/`,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.scss'),
@@ -73,7 +75,7 @@ const config = {
             label: 'Dokumente',
           },
           {
-            href: 'https://github.com/USERNAME/EF-INFORMATIK',
+            href: `https://github.com/${USERNAME}/${REPO_NAME}`,
             label: 'GitHub',
             position: 'right',
           },
@@ -99,12 +101,8 @@ const config = {
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Docusaurus.io',
+                href: 'https://docusaurus.io',
               },
             ],
           },
@@ -117,7 +115,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/USERNAME/EF-INFORMATIK',
+                href: `https://github.com/${USERNAME}/${REPO_NAME}`,
               },
             ],
           },
