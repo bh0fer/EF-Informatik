@@ -27,3 +27,9 @@ Webseite, um SQL-Injection Angriffe zu üben.
 CNC-Laser selber bauen und ansteuern...
 
 ![](./images/cnc-mill.gif)
+
+## Hobbies
+- 🚴‍♂️
+- 🚵‍♂️
+- ⛷️
+- 🧗‍♂️
