@@ -9,7 +9,7 @@
 
 ## Projekte
 
-- [teaching-dev](https://github.com/GBSL-Informatik/teaching-dev) ist aktuell mein ♥️-Projekt
+- [teaching-dev](https://github.com/GBSL-Informatik/teaching-dev) ist aktuell mein ♥️-Projekt.
 
 
 ## Projektlis
