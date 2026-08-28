@@ -11,6 +11,8 @@
 
 - [teaching-dev](https://github.com/GBSL-Informatik/teaching-dev) ist aktuell mein ♥️-Projekt.
 
+![](./images/docusaurus.png)
+
 
 ## Projektlis
 
